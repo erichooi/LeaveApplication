@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+}
+
+.content {
+    height: 500px;
+}
+
+.loginForm {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 50px;
+}

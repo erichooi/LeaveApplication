@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+}
+
+.content {
+    height: 500px;
+}
+
+.cleft {
+    float: left;
+    width: 15%;
+    height: inherit;
+    /*background-color: blue;*/
+}
+
+.cleft > table > tbody > tr > td {
+    height: 30px;
+}
+
+.cright {
+    float: left;
+    width: 80%;
+    height: inherit;
+    /*background-color: green;*/
+}
+
+.vUserTable {
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.vUserTable > tbody > tr > th, .vUserTable > tbody > tr > td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.footer {
+    height: 50px;
+}

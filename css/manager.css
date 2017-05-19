@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+}
+
+.content {
+    height: 500px;
+}
+
+.cleft {
+    float: left;
+    width: 15%;
+    height: inherit;
+}
+
+.cright {
+    float: left;
+    width: 80%;
+    height: inherit;
+}
+
+.vUserTable {
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.vUserTable > tbody > tr > th, .vUserTable > tbody > tr > td {
+    /*border: 1px solid black;*/
+    text-align: left;
+    padding: 8px;
+}
+
+.editClass {
+    background: url(../img/edit.png);
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 40px;
+}
+
+.footer {
+    height: 50px;
+}
